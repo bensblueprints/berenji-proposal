@@ -34,7 +34,7 @@ export default function Footer() {
               </div>
               <div className="glass-card rounded-2xl p-8">
                 <div className="mb-4">
-                  <img src="/logos/aml-logo.png" alt="Advanced Marketing Limited" className="h-8 w-auto brightness-0 invert" />
+                  <img src="/logos/aml-logo.png" alt="Advanced Marketing Limited" className="h-8 w-auto" />
                 </div>
                 <p className="text-slate text-sm mb-6">Hong Kong SAR</p>
                 <div className="space-y-2">

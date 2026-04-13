@@ -40,7 +40,7 @@ export default function Hero() {
         >
           <img src="/logos/berenji-logo.png" alt="Berenji & Associates" className="h-12 md:h-16 w-auto" />
           <div className="w-[1px] h-10 bg-gold/30" />
-          <img src="/logos/aml-logo.png" alt="Advanced Marketing" className="h-8 md:h-10 w-auto brightness-0 invert opacity-80" />
+          <img src="/logos/aml-logo.png" alt="Advanced Marketing" className="h-8 md:h-10 w-auto" />
         </motion.div>
 
         <motion.div

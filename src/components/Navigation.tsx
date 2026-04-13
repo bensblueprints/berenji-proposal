@@ -33,7 +33,7 @@ export default function Navigation() {
         <a href="/" className="flex items-center gap-3">
           <img src="/logos/berenji-logo.png" alt="Berenji & Associates" className="h-8 w-auto" />
           <span className="text-gold text-lg font-light">×</span>
-          <img src="/logos/aml-logo.png" alt="Advanced Marketing" className="h-6 w-auto brightness-0 invert" />
+          <img src="/logos/aml-logo.png" alt="Advanced Marketing" className="h-6 w-auto" />
         </a>
         <div className="hidden md:flex items-center gap-8">
           {links.map((link) => (
