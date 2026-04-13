@@ -47,10 +47,10 @@ export default function Navigation() {
           ))}
         </div>
         <a
-          href="#next-steps"
+          href="#sign"
           className="text-sm bg-gold/10 text-gold border border-gold/20 px-5 py-2 rounded-full hover:bg-gold hover:text-obsidian transition-all duration-300"
         >
-          Get Started
+          Sign Agreement
         </a>
       </div>
     </motion.nav>

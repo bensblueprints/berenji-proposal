@@ -12,6 +12,7 @@ import Timeline from "@/components/Timeline";
 import InvestmentSummary from "@/components/InvestmentSummary";
 import Metrics from "@/components/Metrics";
 import NextSteps from "@/components/NextSteps";
+import ESign from "@/components/ESign";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
       <InvestmentSummary />
       <Metrics />
       <NextSteps />
+      <ESign />
       <Footer />
     </>
   );
