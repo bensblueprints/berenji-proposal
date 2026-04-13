@@ -23,7 +23,9 @@ export default function Footer() {
 
             <div className="grid md:grid-cols-2 gap-12 text-left mb-16">
               <div className="glass-card rounded-2xl p-8">
-                <p className="text-cream font-semibold mb-1">Berenji & Associates</p>
+                <div className="mb-4">
+                  <img src="/logos/berenji-logo.png" alt="Berenji & Associates" className="h-10 w-auto" />
+                </div>
                 <p className="text-slate text-sm mb-6">Los Angeles Divorce & Family Law</p>
                 <div className="space-y-2">
                   <p className="text-slate text-sm">Signature: ____________________________</p>
@@ -31,7 +33,9 @@ export default function Footer() {
                 </div>
               </div>
               <div className="glass-card rounded-2xl p-8">
-                <p className="text-cream font-semibold mb-1">Advanced Marketing Limited</p>
+                <div className="mb-4">
+                  <img src="/logos/aml-logo.png" alt="Advanced Marketing Limited" className="h-8 w-auto brightness-0 invert" />
+                </div>
                 <p className="text-slate text-sm mb-6">Hong Kong SAR</p>
                 <div className="space-y-2">
                   <p className="text-slate text-sm">Signature: ____________________________</p>

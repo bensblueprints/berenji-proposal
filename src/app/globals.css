@@ -87,3 +87,12 @@ body {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
+
+.logo-scroll-reverse {
+  animation: scroll-logos-reverse 35s linear infinite;
+}
+
+@keyframes scroll-logos-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}

@@ -30,8 +30,10 @@ export default function Navigation() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="/" className="font-[family-name:var(--font-playfair)] text-lg font-bold text-cream hover:text-gold transition-colors">
-          B&A <span className="text-gold">×</span> AML
+        <a href="/" className="flex items-center gap-3">
+          <img src="/logos/berenji-logo.png" alt="Berenji & Associates" className="h-8 w-auto" />
+          <span className="text-gold text-lg font-light">×</span>
+          <img src="/logos/aml-logo.png" alt="Advanced Marketing" className="h-6 w-auto brightness-0 invert" />
         </a>
         <div className="hidden md:flex items-center gap-8">
           {links.map((link) => (
